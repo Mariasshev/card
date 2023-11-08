@@ -1,0 +1,51 @@
+.txt{
+    font-size: 14px;
+}
+.yellow{
+    color: yellow;
+    font-size: 14px;
+}
+.orange{
+    color: #ffa900;
+    font-size: 16px;
+}
+body{
+    justify-content: center;
+    text-align: center;
+}
+.heart{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Heart_icon_red_hollow.svg/812px-Heart_icon_red_hollow.svg.png) no-repeat;
+    height: 28px;
+    width: 28px;
+    margin-left: 15px;
+}
+.heart:hover{
+    background: url(img/heart-fill.svg) no-repeat;
+    height: 18px;
+    width: 18px;
+}
+
+.item-img:hover {
+    opacity: 0.8;
+    transition: .3s;
+}
+.breadcrumb-item a{
+    text-decoration: none;
+    color: black;
+}
+.nav-tabs .nav-link {
+    color: black;
+    border: none;
+    font-size: 16px;
+}
+
+.nav-tabs .nav-link:hover{
+    border-bottom: 5px solid green;
+    color: green;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border-bottom: 5px solid green;
+    color: green;
+}
+
+
